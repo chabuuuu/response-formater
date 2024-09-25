@@ -1,6 +1,6 @@
 {
   "name": "response-formater",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Package for generating base format for all express response",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

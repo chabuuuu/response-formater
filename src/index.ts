@@ -85,7 +85,7 @@ const isObjectEmpty = (obj: object) => Object.keys(obj).length === 0;
 const camelCase = (str: string) =>
   str.toLowerCase().replace(/(\_\w)/g, (c) => c[1].toUpperCase());
 
-const responser = (
+const responseFormater = (
   request: Request,
   response: Response,
   next: NextFunction
@@ -111,4 +111,4 @@ const responser = (
   next();
 };
 
-export default responser;
+export default responseFormater;
